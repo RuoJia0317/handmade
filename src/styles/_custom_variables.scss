@@ -1,0 +1,111 @@
+$primary: #e77656;
+$secondary: #779cb2;
+$secondary-dark: #517990;
+$white: #ffffff;
+$dark: #3f3f3f;
+$skin-brighter: #f4eee8;
+$skin-bright: #e2dad2;
+$gray-dark: #878787;
+$gray-light: #d9d9d9;
+$gray-darker: #5f5c51;
+$skin-dark: #cbbdaf;
+
+$theme-colors: (
+  'primary': $primary,
+  'secondary': $secondary,
+  'secondary-dark': $secondary-dark,
+  'white': $white,
+  'dark': $dark,
+  'skin-brighter': $skin-brighter,
+  'skin-bright': $skin-bright,
+  'gray-dark': $gray-dark,
+  'gray-light': $gray-light,
+  'gray-darker': $gray-darker,
+  'skin-dark': $skin-dark,
+);
+
+$spacer: 1rem;
+$spacers: (
+  0: 0,
+  1: $spacer * 0.25,
+  2: $spacer * 0.5,
+  3: $spacer,
+  4: $spacer * 1.5,
+  5: $spacer * 2,
+  6: $spacer * 2.5,
+  7: $spacer * 3,
+  8: $spacer * 3.5,
+  9: $spacer * 4,
+  10: $spacer * 5,
+  11: $spacer * 6,
+  12: $spacer * 7,
+);
+
+$body-bg: $skin-brighter;
+
+// 以下可修改
+
+// 要再修改看 container 要多大
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1140px,
+  xxl: 1320px,
+);
+
+// 如果用 row 排版看 gutter 要不要修改
+// $grid-gutter-width: 1.5rem !default;
+$font-size-base: 1rem;
+$xl-font-size: $font-size-base * 6; // 96px
+$h1-font-size: $font-size-base * 3; // 48px
+$h2-font-size: $font-size-base * 2; // 32px
+$h3-font-size: $font-size-base * 1.75; // 28px
+$h4-font-size: $font-size-base * 1.5; // 24px
+$h5-font-size: $font-size-base * 1.25; // 20px
+$h6-font-size: $font-size-base; // 16px
+
+$font-sizes: (
+  1: $h1-font-size,
+  2: $h2-font-size,
+  3: $h3-font-size,
+  4: $h4-font-size,
+  5: $h5-font-size,
+  6: $h6-font-size,
+  7: $font-size-base * 0.6,
+  xl: $xl-font-size,
+);
+
+$position-values: (
+  0: 0,
+  30: 30%,
+  50: 50%,
+  70: 70%,
+  90: 90%,
+  95: 95%,
+  98: 98%,
+  100: 100%,
+);
+
+$link-decoration: none;
+$link-color: $gray-dark;
+
+$btn-border-radius: 0;
+$link-hover-color: $primary;
+
+$btn-active-box-shadow: none;
+
+// form control
+$input-border-radius: 0;
+$input-focus-box-shadow: none;
+$input-focus-border-color: $gray-dark;
+// $input-focus-bg:$primary;
+$form-select-focus-box-shadow: none;
+//文字是否自適應
+// $enable-rfs: false;
+
+$modal-content-bg: $skin-brighter;
+
+$dropdown-link-active-bg: $secondary;
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700&family=Roboto:wght@400;500;700;900&display=swap');
